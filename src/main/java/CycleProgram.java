@@ -9,8 +9,9 @@ public class CycleProgram {
                     count++;
                 }
             }
-            if (count < 2)
-            System.out.println(i);
+            if (count < 2) {
+                System.out.println(i);
+            }
         }
     }
 }
