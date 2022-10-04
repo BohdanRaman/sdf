@@ -1,19 +1,27 @@
 public class Main {
     public static void main(String[] args) {
 
+        /* Task 4 */
         System.out.println("Task 4");
         CycleProgram cycleProgram = new CycleProgram();
-        cycleProgram.getPrimeNumbers();
+        cycleProgram.getPrimeNumbers(20);
         System.out.println();
 
+        /* Task 5 */
+        System.out.println("Task 5");
+        BitwiseOperatorsProgram operatorsProgram = new BitwiseOperatorsProgram();
+        System.out.println(operatorsProgram.reverse(34)+"\n");
+
+        /* Task 9 */
         System.out.println("Task 9");
         Fibonacci fibonacci = new Fibonacci();
-        fibonacci.getNumbersFibonacci(5);
+        fibonacci.writeNumbersFibonacci(9);
+        System.out.println();
 
-/* I took the solution "Task 10" from Internet and copy/past in my project.
-* I  want to be honest with you */
+        /* Task 10 */
         System.out.println("Task 10");
         VampireNumbers vampireNumbers = new VampireNumbers();
         vampireNumbers.searchNumbers();
-        }
     }
+
+}
