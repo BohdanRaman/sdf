@@ -11,20 +11,17 @@ public class Fibonacci {
 
         /*A Fibonacci sequence is the sequence of numbers 1, 1, 2, 3, 5, 8, 13, 21, 34, 55...*/
 
-        int count;
-        if (a == 0 || a ==1) {
+        if (a == 0 || a == 1) {
             return a;
-        } else {
-            return getNumbersFibonacci(a - 1) + getNumbersFibonacci(a - 2);
         }
+        return getNumbersFibonacci(a - 1) + getNumbersFibonacci(a - 2);
     }
 
     public void writeNumbersFibonacci(int n) {
 
-        for (int i = 1; i < n; i++) {
+        for (int i = 1; i <= n; ++i) {
             System.out.println(getNumbersFibonacci(i));
         }
-
     }
 }
 

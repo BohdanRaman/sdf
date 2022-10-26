@@ -4,18 +4,18 @@ public class Main {
         /* Task 4 */
         System.out.println("Task 4");
         CycleProgram cycleProgram = new CycleProgram();
-        cycleProgram.getPrimeNumbers(20);
+        cycleProgram.getPrimeNumbers(15);
         System.out.println();
 
         /* Task 5 */
         System.out.println("Task 5");
         BitwiseOperatorsProgram operatorsProgram = new BitwiseOperatorsProgram();
-        System.out.println(operatorsProgram.reverse(34)+"\n");
+        System.out.println(operatorsProgram.reverse(34) + "\n");
 
         /* Task 9 */
         System.out.println("Task 9");
         Fibonacci fibonacci = new Fibonacci();
-        fibonacci.writeNumbersFibonacci(9);
+        fibonacci.writeNumbersFibonacci(7);
         System.out.println();
 
         /* Task 10 */

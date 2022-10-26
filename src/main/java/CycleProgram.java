@@ -7,7 +7,10 @@
 public class CycleProgram {
 
     public void getPrimeNumbers(int f) {
-
+        if (f < 0) {
+            System.out.println("Error");
+            return;
+        }
         for (int i = 2; i < f; ++i) {
             int count = 0;
             for (int j = 2; j <= i && count < 2; j++) {
