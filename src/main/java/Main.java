@@ -10,7 +10,7 @@ public class Main {
         /* Task 5 */
         System.out.println("Task 5");
         BitwiseOperatorsProgram operatorsProgram = new BitwiseOperatorsProgram();
-        System.out.println(operatorsProgram.reverse(34) + "\n");
+        System.out.println(operatorsProgram.reverse(3,6) + "\n");
 
         /* Task 9 */
         System.out.println("Task 9");

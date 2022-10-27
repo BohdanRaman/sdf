@@ -10,10 +10,11 @@
  */
 
 public class BitwiseOperatorsProgram {
+    private int a = 0b010101;
+    private int b = 0b101010;
 
-    public int reverse(int num) {
-
-        return num < 10 ? num : Integer.parseInt(String.valueOf(num % 10) + reverse(num / 10));
+    public int reverse(int a, int b) {
+        return a < 10 ? a * 100 : a * 10;
     }
 }
 
