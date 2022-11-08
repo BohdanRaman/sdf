@@ -9,12 +9,33 @@
  * and a bitwise test to display the ones and zeroes, instead of Integer.toBinaryString( ).
  */
 
-public class BitwiseOperatorsProgram {
-    private int a = 0b010101;
-    private int b = 0b101010;
+/* convert decimal to binary */
 
-    public int reverse(int a, int b) {
-        return a < 10 ? a * 100 : a * 10;
+public class BitwiseOperatorsProgramExercise5 {
+    private int decimal;
+
+    public int getDecimal() {
+        return decimal;
+    }
+
+    public void setDecimal(int decimal) {
+        this.decimal = decimal;
+    }
+
+
+    public static void binar(int a) {
+        int b;
+        String temp = "";
+        while (a != 0) {
+            b = a % 2;
+            temp = b + temp;
+            a = a / 2;
+        }
+        System.out.print(temp);
+    }
+
+    public static void main(String[] args) {
+        binar(89);
     }
 }
 

@@ -9,8 +9,9 @@ public class Main {
 
         /* Task 5 */
         System.out.println("Task 5");
-        BitwiseOperatorsProgram operatorsProgram = new BitwiseOperatorsProgram();
-        System.out.println(operatorsProgram.reverse(3,6) + "\n");
+        BitwiseOperatorsProgramExercise5 operatorsProgram = new BitwiseOperatorsProgramExercise5();
+        operatorsProgram.setDecimal(5);
+      //  System.out.println(operatorsProgram.reverse(operatorsProgram.getDecimal()) + "\n");
 
         /* Task 9 */
         System.out.println("Task 9");
@@ -23,5 +24,4 @@ public class Main {
         VampireNumbers vampireNumbers = new VampireNumbers();
         vampireNumbers.searchNumbers();
     }
-
 }
