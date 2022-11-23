@@ -22,16 +22,14 @@ public class BitwiseOperatorsProgramExercise5 {
         this.decimal = decimal;
     }
 
-
     public static void getBinary(int a) {
         int b;
-        String temp = "";
+        String str = "";
         while (a != 0) {
             b = a % 2;
             a = a / 2;
-            temp = b + temp;
+            str = str + b;
         }
-        System.out.print(temp);
+        System.out.println(str);
     }
 }
-

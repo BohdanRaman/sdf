@@ -7,9 +7,6 @@
  * 1827 = 21 * 87
  * 2187 = 27 * 81
  * Write a program that finds all the 4-digit vampire numbers. (Suggested by Dan Forhan.)
- * <p>
- * I took the solution "Task 10" from Internet and copy/past in my project.
- * I  want to be honest with you
  */
 class VampireNumbers {
     public static int count = 0; // Written count vampires.
