@@ -12,8 +12,24 @@
 /* convert decimal to binary */
 
 public class BitwiseOperatorsProgramExercise5 {
-    public int reverse(int num) {
+    private int decimal;
 
-        return num < 10 ? num : Integer.parseInt(String.valueOf(num % 10) + reverse(num / 10));
+    public int getDecimal() {
+        return decimal;
+    }
+
+    public void setDecimal(int decimal) {
+        this.decimal = decimal;
+    }
+
+    public static void getBinary(int a) {
+        int b;
+        String str = "";
+        while (a != 0) {
+            b = a % 2;
+            a = a / 2;
+            str = str + b;
+        }
+        System.out.println(str);
     }
 }
