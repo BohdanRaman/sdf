@@ -1,3 +1,5 @@
+package task_10;
+
 /**
  * A vampire number has an even number of digits and is formed by
  * multiplying a pair of numbers containing half the number of digits of the result. The digits
@@ -8,7 +10,7 @@
  * 2187 = 27 * 81
  * Write a program that finds all the 4-digit vampire numbers. (Suggested by Dan Forhan.)
  */
-class VampireNumbers {
+public class VampireNumber {
     public static int count = 0; // Written count vampires.
 
     public static int k = 0; // Written count colling

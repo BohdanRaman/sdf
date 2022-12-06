@@ -1,3 +1,10 @@
+package main;
+
+import task_10.VampireNumber;
+import task_4.CycleProgram;
+import task_5.BitwiseOperatorsProgram;
+import task_9.Fibonacci;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -9,7 +16,7 @@ public class Main {
 
         /* Task 5 */
         System.out.println("Task 5");
-        BitwiseOperatorsProgramExercise5.getBinary(31);
+        BitwiseOperatorsProgram.getBinary(31);
         System.out.println("\n");
 
         /* Task 9 */
@@ -20,7 +27,7 @@ public class Main {
 
         /* Task 10 */
         System.out.println("Task 10");
-        VampireNumbers vampireNumbers = new VampireNumbers();
+        VampireNumber vampireNumbers = new VampireNumber();
         vampireNumbers.searchNumbers();
     }
 }

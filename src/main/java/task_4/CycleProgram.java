@@ -1,3 +1,5 @@
+package task_4;
+
 /**
  * Write a program that uses two nested for loops and the modulus
  * operator (%) to detect and print prime numbers (integral numbers that are not evenly

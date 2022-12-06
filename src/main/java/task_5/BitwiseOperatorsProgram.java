@@ -1,3 +1,5 @@
+package task_5;
+
 /**
  * Exercise 10: (3) Write a program with two constant values, one with alternating binary
  * ones and zeroes, with a zero in the least-significant digit, and the second, also alternating,
@@ -11,7 +13,7 @@
 
 /* convert decimal to binary */
 
-public class BitwiseOperatorsProgramExercise5 {
+public class BitwiseOperatorsProgram {
     private int decimal;
 
     public int getDecimal() {
