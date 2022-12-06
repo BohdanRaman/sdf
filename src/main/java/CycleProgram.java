@@ -7,18 +7,19 @@
 public class CycleProgram {
 
     public void getPrimeNumbers(int f) {
-
-        for (int i = 2; i < f; ++i) {
-            int count = 0;
-            for (int j = 2; j <= i && count < 2; j++) {
-                if (i % j == 0) {
-                    count++;
+        if (f < 0) {
+            System.out.println("Error");
+        }
+            for (int i = 2; i < f; ++i) {
+                int count = 0;
+                for (int j = 2; j <= i && count < 2; j++) {
+                    if (i % j == 0) {
+                        count++;
+                    }
                 }
-            }
-            if (count < 2) {
-                System.out.println(i);
+                if (count < 2) {
+                    System.out.println(i);
+                }
             }
         }
     }
-}
-
