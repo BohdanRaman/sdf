@@ -9,7 +9,8 @@ public class Main {
 
         /* Task 5 */
         System.out.println("Task 5");
-        BitwiseOperatorsProgramExercise5.getBinary(31);
+        BitwiseOperatorsProgramExercise5 bitwiseOperatorsProgramExercise5 = new BitwiseOperatorsProgramExercise5();
+        bitwiseOperatorsProgramExercise5.reverse(12);
         System.out.println("\n");
 
         /* Task 9 */
